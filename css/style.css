@@ -233,7 +233,8 @@ gap:24px;
     flex-wrap: wrap;
 }
 .team-list .card{
-width: calc((100%-3*24)/4);
+width: calc((100%-3*24px)/4);
+border-radius: 0px 0px 4px 4px;
 }
 
 .section-titles{
@@ -258,17 +259,21 @@ letter-spacing: 0.02em;
 .card-titles.team{
     text-align: center;
     margin-bottom: 8px;
+    }
+.team-names-container{
+    padding: 32px 16px;
+    width: 264px;
+    display: flex;
+    flex-direction: column;
+    
 }
-
 .img-team{
-margin-bottom: 32px;
 }
-
+.team-list .card{
+    width: 264px;
+}
 .card-description.team {
     text-align: center;
-}
-.card-description{
-padding-bottom: 32px;
 }
 
 .section-team-style{
@@ -299,9 +304,9 @@ padding-bottom: 32px;
         padding-bottom: 100px;
 }
 .footer-style .logo-web{
-    display: block;
+    display: inline-block;
     margin-bottom: 16px;
-}
+    }
 .footer-text {
     color: var(--light-footer-text);
     max-width: 264px;
