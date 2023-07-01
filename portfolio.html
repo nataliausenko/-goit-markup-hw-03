@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css" />
     <title>Portfolio-Web Studio</title>
   </head>
@@ -43,113 +45,115 @@
     </header>
 
     <main>
-      <section>
-        <h1 hidden>Projects</h1>
-        <!-- buttons-portfolio page -->
-        <ul class="list">
-          <li><button class="section-buttons" type="button">All</button></li>
-          <li>
-            <button class="section-buttons" type="button">Web Site</button>
-          </li>
-          <li><button class="section-buttons" type="button">App</button></li>
-          <li><button class="section-buttons" type="button">Design</button></li>
-          <li>
-            <button class="section-buttons" type="button">Marketing</button>
-          </li>
-        </ul>
-        <!-- Projects-portfolio page -->
-        <ul class="list">
-          <li>
-            <a class="link"><img
-              src="./images_portfolio_page/img-1-bank-app.jpg"
-              alt="Banking App Interface"
-              width="360"
-              height="300"
-            /><h2 class="card-titles">Banking App Interface Concept</h2>
-            <p class="card-description">App</p></a>
-            
-          </li>
-          <li>
-            <a class="link" href=""><img
-              src="./images_portfolio_page/img-2-scan.jpg"
-              alt="Cashless Payment"
-              width="360"
-              height="300"
-            /><h2 class="card-titles">Cashless Payment</h2>
-            <p class="card-description">Marketing</p></a>
-            
-          </li>
-          <li>
-            <a class="link" href=""><img
-              src="./images_portfolio_page/img-3-return.jpg"
-              alt="Phone and laptop"
-              width="360"
-              height="300"
-            />
-            <h2 class="card-titles">Meditation App</h2>
-            <p class="card-description">App</p></a>
-          </li>
-          <li>
-            <a class="link" href=""><img
-              src="./images_portfolio_page/img-4-car.jpg"
-              alt="Taxi"
-              width="360"
-              height="300"
-            />
-            <h2 class="card-titles">Taxi Service</h2>
-            <p class="card-description">Marketing</p></a>
-          </li>
-          <li>
-            <a class="link" href=""><img
-              src="./images_portfolio_page/img-5-phone.jpg"
-              alt="Screens"
-              width="360"
-              height="300"
-            />
-            <h2 class="card-titles">Screen Illustrations</h2>
-            <p class="card-description">Design</p></a>
-          </li>
-          <li>
-            <a class="link" href=""><img
-              src="./images_portfolio_page/img-6-girl.jpg"
-              alt="Girl with phone"
-              width="360"
-              height="300"
-            />
-            <h2 class="card-titles">Online Courses</h2>
-            <p class="card-description">Marketing</p></a>
-          </li>
-          <li>
-            <a class="link" href=""><img
-              src="./images_portfolio_page/img-7-storie.jpg"
-              alt="Instagram Stories"
-              width="360"
-              height="300"
-            />
-            <h2 class="card-titles">Instagram Stories Concept</h2>
-            <p class="card-description">Design</p></a>
-          </li>
-          <li>
-            <a class="link" href=""><img
-              src="./images_portfolio_page/img-8-food.jpg"
-              alt="Women with fruits"
-              width="360"
-              height="300"
-            />
-            <h2 class="card-titles">Organic Food</h2>
-            <p class="card-description">Web Site</p></a>
-          </li>
-          <li>
-            <a class="link" href=""><img
-              src="./images_portfolio_page/img-9-coffee.jpg"
-              alt="Coffee in cup"
-              width="360"
-              height="300"
-            />
-            <h2 class="card-titles">Fresh Coffee</h2>
-            <p class="card-description">Web Site</p></a>
-          </li>
-        </ul>
+      <section class="section-projects-style">
+        <div class="container">
+          <h1 hidden>Projects</h1>
+          <!-- buttons-portfolio page -->
+          <ul class="list">
+            <li><button class="section-buttons" type="button">All</button></li>
+            <li>
+              <button class="section-buttons" type="button">Web Site</button>
+            </li>
+            <li><button class="section-buttons" type="button">App</button></li>
+            <li><button class="section-buttons" type="button">Design</button></li>
+            <li>
+              <button class="section-buttons" type="button">Marketing</button>
+            </li>
+          </ul>
+          <!-- Projects-portfolio page -->
+          <ul class="list">
+            <li>
+              <a class="link"><img
+                src="./images_portfolio_page/img-1-bank-app.jpg"
+                alt="Banking App Interface"
+                width="360"
+                height="300"
+              /><h2 class="card-titles">Banking App Interface Concept</h2>
+              <p class="card-description">App</p></a>
+          
+            </li>
+            <li>
+              <a class="link" href=""><img
+                src="./images_portfolio_page/img-2-scan.jpg"
+                alt="Cashless Payment"
+                width="360"
+                height="300"
+              /><h2 class="card-titles">Cashless Payment</h2>
+              <p class="card-description">Marketing</p></a>
+          
+            </li>
+            <li>
+              <a class="link" href=""><img
+                src="./images_portfolio_page/img-3-return.jpg"
+                alt="Phone and laptop"
+                width="360"
+                height="300"
+              />
+              <h2 class="card-titles">Meditation App</h2>
+              <p class="card-description">App</p></a>
+            </li>
+            <li>
+              <a class="link" href=""><img
+                src="./images_portfolio_page/img-4-car.jpg"
+                alt="Taxi"
+                width="360"
+                height="300"
+              />
+              <h2 class="card-titles">Taxi Service</h2>
+              <p class="card-description">Marketing</p></a>
+            </li>
+            <li>
+              <a class="link" href=""><img
+                src="./images_portfolio_page/img-5-phone.jpg"
+                alt="Screens"
+                width="360"
+                height="300"
+              />
+              <h2 class="card-titles">Screen Illustrations</h2>
+              <p class="card-description">Design</p></a>
+            </li>
+            <li>
+              <a class="link" href=""><img
+                src="./images_portfolio_page/img-6-girl.jpg"
+                alt="Girl with phone"
+                width="360"
+                height="300"
+              />
+              <h2 class="card-titles">Online Courses</h2>
+              <p class="card-description">Marketing</p></a>
+            </li>
+            <li>
+              <a class="link" href=""><img
+                src="./images_portfolio_page/img-7-storie.jpg"
+                alt="Instagram Stories"
+                width="360"
+                height="300"
+              />
+              <h2 class="card-titles">Instagram Stories Concept</h2>
+              <p class="card-description">Design</p></a>
+            </li>
+            <li>
+              <a class="link" href=""><img
+                src="./images_portfolio_page/img-8-food.jpg"
+                alt="Women with fruits"
+                width="360"
+                height="300"
+              />
+              <h2 class="card-titles">Organic Food</h2>
+              <p class="card-description">Web Site</p></a>
+            </li>
+            <li>
+              <a class="link" href=""><img
+                src="./images_portfolio_page/img-9-coffee.jpg"
+                alt="Coffee in cup"
+                width="360"
+                height="300"
+              />
+              <h2 class="card-titles">Fresh Coffee</h2>
+              <p class="card-description">Web Site</p></a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
